@@ -159,9 +159,6 @@ main{
     opacity: 0.8;
     overflow-y: scroll ;
 }
-/* .state-list ul{
-
-} */
 .state-list ul li{
     list-style: none;
     cursor: pointer;
