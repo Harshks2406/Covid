@@ -23,9 +23,18 @@
     <main>
         <div class="stats">
             <div class="latest-report">
-                <div class="country">
+                <div class="state">
                     <div class="name">Loading...</div>
-                    <div class="change-country">change</div>
+                    <div class="change-state">Select Your State</div>
+                    <div class="search-state hide">
+                        <div class="search-box">  
+                            <input type="text" name="" id="search-input" placeholder="Search state...">
+                            <img src="./public/Images/close.png" alt="" class="close" onclick="getIndiaData()">
+                        </div>
+                        <div class="state-list">
+                            
+                        </div>
+                    </div>
                 </div>
                 <div class="total-cases">
                     <div class="title">Total Cases</div>
@@ -43,7 +52,20 @@
                     <div class="new-value">+0</div>
                 </div>
             </div>
+            <div class="chart">
+                <canvas id="axes_line_chart"></canvas>
+            </div>
         </div>
     </main>
+    <footer>
+        <div class="footer-container">
+            <div class="copyright">
+                <p>Copyright © 2022 Harsh Kumar</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js" integrity="sha512-TW5s0IT/IppJtu76UbysrBH9Hy/5X41OTAbQuffZFU6lQ1rdcLHzpU5BzVvr/YFykoiMYZVWlr/PX1mDcfM9Qg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="./public/js/app.js"></script>
+    <script defer src="./public/js/state.js"></script>
 </body>
 </html>
