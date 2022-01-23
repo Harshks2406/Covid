@@ -22,7 +22,6 @@ const getInfo = async(event) =>{
             }
     })
     const data = await response.json();
-    console.log(data)
     const arrData = [data]; 
     
     let i=arrData.length
@@ -39,9 +38,6 @@ const getInfo = async(event) =>{
         recovered_list.push(arrData[i-i][i].recovered)
         death_lists.push(arrData[i-i][i].death)
     }
-    for(i in dates,cases_list){[
-        console.log(dates[i],cases_list[i])
-    ]}
     axesLineChart(cases_list,recovered_list,death_lists,dates)
     } catch(e) {
         alert("Something went wrong! Try again later")

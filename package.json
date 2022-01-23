@@ -1,0 +1,23 @@
+{
+  "name": "covid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harshks2406/Covid.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harshks2406/Covid/issues"
+  },
+  "homepage": "https://github.com/Harshks2406/Covid#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "hbs": "^4.2.0"
+  }
+}
