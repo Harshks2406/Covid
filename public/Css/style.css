@@ -173,7 +173,7 @@ main{
     display: flex;
     justify-content: center;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 992px){
     .latest-report{
         display: flex;
         flex-direction: column;
