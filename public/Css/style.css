@@ -191,6 +191,12 @@ main{
     .stats{
         height: 100vh;
     }
+    .state-list{
+        width: 300px;
+    }
+    .search-box{
+        width: 300px;
+    }
     
     
 }
